@@ -43,7 +43,7 @@ const LandingPage = () => {
         <div className="relative mb-8">
           {/* Logo image with heartbeat effect */}
           <img 
-            src="/assets/h_logo-BUMuRCZc.png" 
+            src="/assets/h_logo.png" 
             alt="HydroLock Logo" 
             className="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 object-contain heartbeat-logo"
             onError={(e) => {
