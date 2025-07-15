@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import WaterUsageDashboard from './WaterUsageDashboard';
+import logo from './assets/h_logo.png';
 
 const LandingPage = () => {
   const [showDashboard, setShowDashboard] = useState(false);
@@ -43,7 +44,7 @@ const LandingPage = () => {
         <div className="relative mb-8">
           {/* Logo image with heartbeat effect */}
           <img 
-            src="/assets/h_logo.png" 
+            src={logo} 
             alt="HydroLock Logo" 
             className="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 object-contain heartbeat-logo"
             onError={(e) => {
